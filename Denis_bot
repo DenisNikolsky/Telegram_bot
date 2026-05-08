@@ -6,7 +6,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher import FSMContext
 
-TOKEN = '5749100788:AAEU8VkUGKUhh97hPjGTH76ijOUSif6PzpA'
+TOKEN = 'YOUR TOKEN HERE'
 
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
 memory_storage = MemoryStorage()
